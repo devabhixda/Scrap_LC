@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import csv
 
-companies = ["amazon"]
+companies = ["amazon", "meta"]
 
 for company in companies:
     with open(f'./input/{company}.html', "r", encoding="utf-8") as file:
